@@ -6,7 +6,7 @@ class HTMLNode:
         self.props = props
     
     def to_html(self):
-        raise NotImplementedError("Subclass must for to html")
+        raise NotImplementedError("Subclass used for to html")
     
     def props_to_html(self):
         if not self.props:
