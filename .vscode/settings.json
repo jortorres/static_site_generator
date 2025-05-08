@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/split_",
+        "./src/split_"
+    ]
+}

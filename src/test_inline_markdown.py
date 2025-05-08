@@ -8,6 +8,7 @@ from inline_markdown import (
 )
 
 from textnode import TextNode, TextType
+from split_markdown_blocks import markdown_to_blocks
 
 
 class TestInlineMarkdown(unittest.TestCase):
